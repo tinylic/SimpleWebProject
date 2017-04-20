@@ -69,6 +69,8 @@ def test():
     TODO: to be deleted
     :return:
     """
+    import db
+    print db.community.get_all()
     return render_template('test.html')
 
 
